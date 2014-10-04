@@ -1,11 +1,58 @@
 <!DOCTYPE HTML>
 <html>
+<head>
+	<style>
+        #Content {
+/*            position:relative;*/
+            width: 700px;
+        }
+		#Useful-links {
+/*			position:absolute;*/
+            background-color: lightgrey;
+			width: 300px;
+/*            left: 0px;*/
+                        float:left;
+		}
+        #Main-text{
+/*            position:absolute;*/
+                        float:left;
+            width:300px;
+/*            right:0px;*/
+            background-color: cyan;
+        }
+        #Inset{
+            position:absolute;
+            top: 0px;
+            right: 0px;
+            height: 50px;
+            background-color: red;
+            width: 40px;
+        }
+        
+        
+	</style>
+</head>
 <body>
-	<h1 align="center">Welcome to Satrio's homepage...</h1>
-	<p>Useful links:
-	<p><a href="http://www.google.com">Google</a></p>
-	<p><a href="http://www.github.com">Github</a></p>
-	<p><a href="http://www.en.wikipedia.org">Wikipedia</a></p>
+	<div id="Content">
+    <h1 align="center">Welcome to Satrio's homepage...</h1>
+	<div id="Useful-links">
+		<p>Useful links:</p>
+		
+		<p><a href="http://www.google.com">Google</a></p>
+		<p><a href="http://www.github.com">Github</a></p>
+		<p><a href="http://www.en.wikipedia.org">Wikipedia</a></p>
+	    <div id="Inset">
+        <p>This will have content</p>
+        </div>
+    </div>
+    <div id="Main-text">
+        <p>This is the main text</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+        <div id="Inset">
+        <p>This will have content</p>
+        </div>
+    </div>
+    </div>
 </body>
 
 </html>
