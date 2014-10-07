@@ -8,7 +8,7 @@
             
             
         }
-		#Useful-links {
+		#LeftBox {
 			position:absolute;
             background-color: lightgrey;
 			width: 300px;
@@ -19,7 +19,7 @@
             
             
 		}
-        #Main-text{
+        #MiddleBox{
             position:absolute;
             left:400px;
             top:50px;
@@ -27,7 +27,17 @@
 /*            right:0px;*/
             background-color: cyan;
             padding-left: 20px;
+            border-style: dotted;
+            padding-right: 20px;
 
+        }
+        #RightBox{
+            position:absolute;
+            border-style: dashed;
+            left:800px;
+            width:300px;
+            height:200px;
+            top:50px;
         }
         #Inset{
             position:absolute;
@@ -51,17 +61,19 @@
 <body>
 	<div id="Content">
         <h1 align="center">Welcome to Satrio's homepage...</h1>
-        <div id="Useful-links"><h1 align="center">Useful links:</h1>
+        <div id="LeftBox"><h1 align="center">Links</h1>
 
             <p><a href="http://www.google.com">Google</a></p>
             <p><a href="http://www.github.com">Github</a></p>
             <p><a href="http://www.en.wikipedia.org">Wikipedia</a></p>
             
         </div>
-        <div id="Main-text">
-            <h1>This is the main text</h1>
+        <div id="MiddleBox">
+            <h1>Some Text</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
-            
+        </div>
+        <div id="RightBox">
+            <h1>About me</h1>
         </div>
     </div>
 </body>
