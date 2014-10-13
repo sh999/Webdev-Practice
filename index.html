@@ -16,7 +16,7 @@
             top:50px;
             border-style: solid;
             padding-left: 20px;
-            
+            text-align: center;
             
 		}
         #MiddleBox{
@@ -29,6 +29,7 @@
             padding-left: 20px;
             border-style: dotted;
             padding-right: 20px;
+            
 
         }
         #RightBox{
@@ -50,17 +51,32 @@
         h1{
             color: black;
             font-weight: 700;
-            text-align: center;
-            
-            
+            text-align: center;    
         }
-        
+        p{
+            color: brown;
+            font-weight: 600;
+        }
+        .emphasis{
+            font-size: 25px;
+            color:green
+        }
+        a:link{
+            color: #570d0d;
+        }
+        a:hover{
+            color: cyan;
+        }
+        a:visited{
+            color: green;
+        }
+            
         
 	</style>
 </head>
 <body>
 	<div id="Content">
-        <h1 align="center">Welcome to Satrio's homepage...</h1>
+        <h1 align="center">Welcome</h1>
         <div id="LeftBox"><h1 align="center">Links</h1>
 
             <p><a href="http://www.google.com">Google</a></p>
@@ -70,10 +86,11 @@
         </div>
         <div id="MiddleBox">
             <h1>Some Text</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+            <p><span class="emphasis">Welcome</span> to my page.  This is a practice site for learning web design </p>
         </div>
         <div id="RightBox">
             <h1>About me</h1>
+            <p>I am a <span class="emphasis">student</span> interested in computer programming and <span class="emphasis">web design</span></p>
         </div>
     </div>
 </body>
