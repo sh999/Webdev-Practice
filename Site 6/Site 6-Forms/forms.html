@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript">
+            function clickEvent(){
+                document.myForm.outputText.value = document.myForm.inputText.value
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Form practice</h1>
+        <form name="myForm">
+            <h2>Input text</h2>
+            <input type="text" name="inputText">  <! Does not need a closing tag >
+            <input type="button" value="Copy Text" onclick="clickEvent()"> <! In case of button, button value is text displayed on it, don't use name>
+            <h2>Output text</h2>
+            <input type="text" name="outputText">
+        </form>
+    </body>
+</html>
+    

@@ -1,0 +1,8 @@
+.level1 {
+    font-family: Courier;
+    color: red;
+}
+
+p.level2 { /* will only color paragraphs in class level2*/
+    color: green;
+}
