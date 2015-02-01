@@ -1,0 +1,23 @@
+@import
+    url(http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+body{
+    background: #f0d4d4
+}
+
+.searchBox{
+    width: 100%;
+    position: relative;
+    
+}
+.searchTerm{
+    float: left;
+    width: 100%;
+    border: 3px solid #00B$CC;
+    color: #9DBFAF;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+.searchButton{
+}
