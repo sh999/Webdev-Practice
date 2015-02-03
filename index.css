@@ -53,8 +53,9 @@ h1{
     text-align: center;    
 }
 p{
-    color: brown;
+    color: red;
     font-weight: 600;
+    font-size: large;
 }
 .emphasis{
     font-size: 25px;

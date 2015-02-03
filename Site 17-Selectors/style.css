@@ -1,0 +1,11 @@
+p{ /* Type selector.  Will affect all <p> elements regardless of nesting position */
+    color:red; 
+}
+
+.bobsayshi{ /* Class selector.  Will affect elements with a given class name */
+    color:blue;
+}
+
+#geographyfact{ /* Type/ID selector.  Will affect elements with a given id name */
+    color:green;
+}
