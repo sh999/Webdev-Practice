@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<head>
+    <title>Basic interaction</title>
+    <script type="text/javascript" src="action.js"></script>
+    <script>
+        function change(id){
+            id.innerHTML = "Changed by function call";
+        }
+    </script>
+</head>
+<body>
+    <h1 onclick="this.innerHTML='Changed directly in element tag'">Click text</h1>
+    <h1 onclick="change(this)">Click text</h1>
+    <h1 onclick="extChange(this)">Click text</h1>
+</body>
