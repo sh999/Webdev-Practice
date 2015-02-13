@@ -1,0 +1,26 @@
+#top-banner{
+    background-color:#ac4545;
+    color:black;
+    text-align:center;
+    padding:5px;
+    font-size:30px;
+}
+#navigation-bar{
+    line-height:40px;
+    background-color:#e8dddd;
+    width:100px;
+    padding:3px;
+    height:500px;
+    float:left;
+}
+#content{
+    width:300px;
+    float:left;
+    padding:10px;
+}
+#footer{
+    text-align: center;
+    padding:5px;
+    background-color:gray;
+    clear:both;
+}
