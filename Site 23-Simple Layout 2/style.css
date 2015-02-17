@@ -1,0 +1,14 @@
+header {
+    font-family: cursive;
+    font-size: 400%;
+}
+.emphasize {
+    color: red;
+}
+.subtle {
+    color: orange;
+}
+
+header, h1, article {
+    background-color: lightblue;
+}
