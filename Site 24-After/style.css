@@ -1,0 +1,17 @@
+h1::after {
+    content: "Yes, I assure you.";
+    background-color: black;
+    color: white;
+    font-size: 300%;
+}
+
+p {
+    font-size: 120%;
+}
+
+p::after {
+    content: "Just kidding, no message.";
+    background-color: yellow;
+    color: green;
+    font-size: 75%
+}
