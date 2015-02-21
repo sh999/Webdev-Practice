@@ -1,0 +1,15 @@
+.left {
+    color: red;
+    position: relative;
+    left: -10px;
+}
+.right {
+    color: green;
+    position: relative;
+    left: 20px;
+}
+.middle {
+    color:blue;
+    position: relative;
+    left: 100px;
+}
