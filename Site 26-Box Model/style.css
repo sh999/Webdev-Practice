@@ -1,0 +1,18 @@
+.style1{
+    float: left;
+    color: red;
+    font-size: 500%;
+    border: 10px solid black;
+    padding: 30px;
+}
+
+.style2{
+    float: left;
+    color: blue;
+    font-size: 500%;
+    border: 20px solid pink;
+    padding-bottom: 300px;
+    padding-left: 200px;
+    background-color: lightblue;
+    margin-left: 50px;
+}
