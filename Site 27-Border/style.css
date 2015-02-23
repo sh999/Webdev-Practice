@@ -1,0 +1,16 @@
+.border-thin{
+    color: red;
+    border: 1px solid #8b3131;
+}
+.border-thick{
+    color: blue;
+    border: 20px solid #093088;
+}
+.border-dashed{
+    color: orange;
+    border: 5px dashed rgb(148, 103, 173);
+}
+.border-dotted{
+    color: red;
+    border: 5px dotted rgb(22, 133, 22);
+}
