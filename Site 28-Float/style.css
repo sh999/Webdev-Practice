@@ -3,5 +3,6 @@
     width: 300px;
 }
 #photo{
-    border: 30px double red;
+    float:left;
+    border: 3px double red;
 }
